@@ -5,12 +5,13 @@
 	- MeshLab
 	- python library numpy-stl
 	- python library matplotlib
+	- python library python-utils
 	- OpenSCAD
 	- CURA 
 
 2. 	If you have a scanned object, e.g. "scanned.stl", you can perform semi-automatic object isolation in terminal by:
 
-	`python flooring_cropping.py -p -s scanned`
+	`python main.py -p -s scanned`
 
 	where -p is the percentage of the of mesh that you want to keep on the turntable,
 	and -s is the name (without extension) of your stl file.
